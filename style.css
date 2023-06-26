@@ -1,0 +1,530 @@
+@font-face {
+  font-family: "vallely_demoregular";
+  src: url("vallely-webfont.woff2") format("woff2"),
+    url("vallely-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.content {
+  width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  background-color: #3e0c47;
+  background: url(assets/background.jpg);
+  background-repeat: repeat;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #3e0c47;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "vallely_demoregular";
+  font-size: 32px;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+header img.headerLogo {
+  height: 100px;
+}
+
+header a {
+  color: #ffd9ff;
+}
+
+header a:hover {
+  color: #ce97ff;
+}
+
+.index-main .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+img.imgMainLogo {
+  height: 480px;
+}
+
+img.imgMainIllu {
+  height: 800px;
+}
+
+.decompte {
+  background-color: #3e0c47;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.decompte h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.decompte .content {
+  display: flex;
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 60px;
+  letter-spacing: 1px;
+  text-align: center;
+  justify-content: center;
+}
+
+.decompte .content p {
+  font-size: 30px;
+  margin-top: -16px;
+}
+
+.decompte .content div {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+a.buy {
+  font-family: "vallely_demoregular";
+  font-size: 30px;
+  letter-spacing: 1px;
+  background-color: #ce97ff;
+  color: #3e0c47;
+  padding: 12px 0px 12px 0px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 320px;
+  text-align: center;
+}
+
+a.buy:hover {
+  opacity: 0.8;
+}
+
+.line {
+  background: url(assets/line.jpg);
+  background-size: cover;
+  height: 8px;
+}
+
+.lorem {
+  color: #ffd9ff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.lorem p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.lorem h2 {
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.lorem .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lorem .content img {
+  height: 480px;
+  margin-right: 40px;
+}
+
+.indexLinks {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.indexLinks .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.indexLinks .content div {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #3e0c47;
+  color: #ffd9ff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 24%;
+}
+
+.indexLinks .content div a {
+  font-family: "vallely_demoregular";
+  font-size: 28px;
+  color: #ffd9ff;
+  letter-spacing: 1px;
+}
+
+.indexLinks .content div i {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 14px;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffd9ff;
+  text-align: center;
+  background-color: #3e0c47;
+}
+
+footer h4 {
+  font-family: "vallely_demoregular";
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+footer a i {
+  color: #ffd9ff;
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer p {
+  margin-top: 14px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.page-header .content {
+  display: flex;
+  color: #ffd9ff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.page-header .content img {
+  height: 480px;
+  margin-left: 60px;
+}
+
+.page-header .content p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.page-header .buy {
+  margin-right: 24px;
+  font-size: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.page-header h1 {
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+.page-header {
+  margin-bottom: 60px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.artist-list h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 48px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.artist-list {
+  background-color: #3e0c47;
+}
+
+.tags a {
+  color: #ffd9ff;
+  background-color: #3e0c47;
+  border: 1px solid #662f70;
+  padding: 8px;
+  border-radius: 4px;
+  margin-left: 14px;
+  margin-right: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  width: 23%;
+  color: #ffd9ff;
+  text-align: center;
+}
+
+.card h3 {
+  color: #ffd9ff;
+  font-family: "vallely_demoregular";
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 24px;
+}
+
+.page-billeterie .content {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.page-billeterie img {
+  height: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programmation {
+  background-color: #3e0c47;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffd9ff;
+}
+
+.programmation h1 {
+  font-family: "vallely_demoregular";
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.prog-card {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #662f70;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.prog-card h3 {
+  font-size: 34px;
+  font-family: "vallely_demoregular";
+  letter-spacing: 1px;
+  color: #9e6821;
+}
+
+.clock {
+  text-align: center;
+  margin-right: 24px;
+}
+
+.prog-card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+form {
+  color: #ffd9ff;
+}
+
+.marchandz .cards .card h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.marchandz .card {
+  background-color: #662f70;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.marchandz .cards .card p {
+  line-height: 1.6;
+  font-size: 18px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.marchandz .cards .card p a i {
+  color: #ffd9ff;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 24px;
+  margin-top: -8px;
+}
+
+.marchandz {
+  padding-bottom: 40px;
+}
+
+.infos {
+  background-color: #3e0c47;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.infos h1 {
+  font-size: 34px;
+  font-family: "vallely_demoregular";
+  letter-spacing: 1px;
+}
+
+.infos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #ffd9ff;
+}
+
+.infos p {
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+input,
+textarea {
+  box-shadow: 0px;
+  -webkit-box-shadow: 0px 0px 0em #e34069;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 0px solid #0a0a0a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  width: 100%;
+  background-color: #3e0c47;
+  color: #ffd9ff;
+  border: 1px solid #662f70;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+}
+
+input.execot {
+  width: 20px;
+}
+
+.inscri {
+  background-color: #3e0c47;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+form {
+  width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form label,
+form h2 {
+  font-size: 40px;
+  font-family: "vallely_demoregular";
+  letter-spacing: 1px;
+  color: #ffd9ff;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.button {
+  clear: both;
+  cursor: pointer;
+  background-color: #9e6821;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
